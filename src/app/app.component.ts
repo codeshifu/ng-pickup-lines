@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'ng-pickup-lines-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: "app-root",
+  template: `
+    <main>
+      <app-pickup-line></app-pickup-line>
+    </main>
+  `
 })
-export class AppComponent {
-  title = 'ng-pickup-lines';
-}
+export class AppComponent {}
